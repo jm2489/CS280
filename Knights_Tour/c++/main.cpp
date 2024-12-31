@@ -112,6 +112,7 @@ int main(int argc, char* argv[]) {
     cout << "Stats:" << endl;
     cout.imbue(std::locale("")); // Formatting
     cout << "Total Number of Dead Ends: " << deadEnds << endl;
+    cout << "Link to my GitHub repo for CS280: https://github.com/jm2489/CS280" << endl;
 
     return 0;
 }

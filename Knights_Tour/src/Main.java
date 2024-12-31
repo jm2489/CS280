@@ -121,5 +121,6 @@ public class Main {
         System.out.println("Stats:");
         String formattedDeadEnds = String.format("%,d", deadEnds);
         System.out.println("Total Number Dead ends: " + formattedDeadEnds);
+        System.out.println("Link to my GitHub repo for CS280: https://github.com/jm2489/CS280");
     }
 }
