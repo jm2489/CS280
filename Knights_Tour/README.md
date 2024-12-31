@@ -9,3 +9,7 @@ The workspace for `Java` contains two folders by default, where:
 The workspace for `C++` will be contained in one folder where:
 
 - `c++`: the folder to maintain sources
+
+The workspace for `C` is similar to `C++` where:
+
+- `c`: the folder to maintain sources
