@@ -4,17 +4,6 @@
 
 using namespace std;
 
-
-// A -> I = E
-// E -> P O P | P
-// O -> + | - | * | / | **
-// P -> I | L | UI | UL | (E)
-// U -> + | - | !
-// I -> C | CI
-// C -> a | b | ... | y | z
-// L -> D | DL
-// D -> 0 | 1 | ... | 8 | 9
-
 bool A();
 bool E();
 bool O();
@@ -48,6 +37,7 @@ int main() {
     return 0;
 }
 
+// A -> I = E
 bool A() {
     if (I() && !s.empty() && s[0] == '=') {
         s = s.substr(1);
@@ -56,6 +46,7 @@ bool A() {
     return false;
 }
 
+// E -> P | P O E
 bool E() { 
     if (P()) {
         while (!s.empty() && O()) {
